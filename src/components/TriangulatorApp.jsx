@@ -714,7 +714,7 @@ async function onExportClick() {
     alert('All masks processed. You can now generate sheets.');
   }
 }
-S
+
 return (
   <div style={{fontFamily: 'sans-serif', padding: 12}}>
     <h2>Origami Map – Turn Paper Into Adventure!</h2>
