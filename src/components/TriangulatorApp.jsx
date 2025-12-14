@@ -714,10 +714,10 @@ async function onExportClick() {
     alert('All masks processed. You can now generate sheets.');
   }
 }
-
+S
 return (
   <div style={{fontFamily: 'sans-serif', padding: 12}}>
-    <h2>Triangulator (Web) — Fixed clipping bug</h2>
+    <h2>Origami Map – Turn Paper Into Adventure!</h2>
     <div style={{display: 'flex', gap: 8, alignItems: 'center', marginBottom: 8}}>
       <input type="file" accept="image/*" onChange={handleFile} />
 
@@ -762,7 +762,7 @@ return (
     </div>
 
     <div style={{marginTop:8}}>
-      Mask {maskId} — index {currentMaskIndex + 1}/{maskSequence.length}
+      Photo {currentMaskIndex + 1}/{maskSequence.length}
     </div>
   </div>
 );
