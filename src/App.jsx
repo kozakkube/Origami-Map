@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import TriangulatorApp from './components/TriangulatorApp';
 
-const CORRECT_PASSWORD = 'mellon';
+const CORRECT_PASSWORD = 'przyjaciel';
 function App() {
   const [inputValue, setInputValue] = useState('');
   const [passwordEntered, setPasswordEntered] = useState(false);
