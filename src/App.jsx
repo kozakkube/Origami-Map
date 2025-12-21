@@ -33,6 +33,14 @@ function App() {
           <button type="submit" style={{ padding: '8px', fontSize: '16px' }}>Submit</button>
           {errorMessage && <div style={{ color: 'red', fontWeight: 'bold' }}>{errorMessage}</div>}
         </form>
+   <a
+        href="https://www.drivethrurpg.com/en/product/547322/create-your-own-origami-style-map-puzzle"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ display: 'block', marginTop: 20, fontSize: '20px' }}
+      >
+        Get your password here!
+      </a>
       </div>
     );
   }
